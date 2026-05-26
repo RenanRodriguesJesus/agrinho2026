@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho 2026 - Quiz Completo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="tela-quiz">
+            <h1>🌱 Quiz Agrinho</h1>
+            <div id="info-progresso" class="progresso"></div>
+            <hr class="divisor">
+            
+            <h2 id="pergunta">Carregando...</h2>
+            
+            <div id="alternativas"></div>
+        </div>
+
+        <div id="resultado" class="hidden">
+            <h2>Fim do Desafio! 🎉</h2>
+            <p id="score"></p>
+            <p id="mensagem-final"></p>
+            <button class="btn-reiniciar" onclick="reiniciar()">Tentar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f8e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    border-top: 10px solid #2e7d32;
+}
+
+h1 { 
+    color: #2e7d32; 
+    margin-bottom: 5px; 
+}
+
+.progresso { 
+    color: #888; 
+    font-size: 14px; 
+    margin-bottom: 20px; 
+}
+
+.divisor {
+    border: 0; 
+    border-top: 1px solid #eee; 
+    margin-bottom: 20px;
+}
+
+#pergunta {
+    font-size: 1.1rem; 
+    color: #333; 
+    min-height: 50px;
+}
+
+.btn-opcao {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 2px solid #c8e6c9;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-opcao:hover {
+    background-color: #e8f5e9;
+    border-color: #2e7d32;
+    transform: scale(1.02);
+}
+
+.hidden { 
+    display: none; 
+}
+
+#resultado h2 {
+    color: #2e7d32;
+}
+
+#score {
+    font-size: 1.3rem; 
+    margin: 20px 0; 
+    font-weight: bold;
+}
+
+.btn-reiniciar {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
